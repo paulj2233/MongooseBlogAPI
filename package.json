@@ -2,13 +2,20 @@
   "name": "mongooseblogapi",
   "version": "1.0.0",
   "description": "MongooseBlogAPI",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
+    "express": "^4.16.3",
+    "mongoose": "^5.0.12",
+    "morgan": "^1.9.0",
     "uuid": "^3.2.1"
-  }
+  },
+  "keywords": [
+    "node",
+    "express"
+  ]
 }
